@@ -1,0 +1,13 @@
+<div class="section bg">
+  <h2>Here starts the fun</h2>
+  <p>This section is in different component called <em>SeparateFileComponent</em>.<br>But it's not an ordinary
+    component, no no no.</p>
+  <h2><em>It is special.</em></h2>
+  <p>It was build <em>on-fly</em> using <em>vue-separate-files-webpack-loader</em>.</p>
+  <p>If you look at source code of this example, you won't see any <em>SeparateFileComponent.vue</em>;
+    you'll see files:</p>
+  <pre class="inverted"><code>SingleFileComponent.vue.html&#10;SingleFileComponent.vue.js</code></pre>
+  <p>Actual <em>SingleFileComponent.vue</em> file,
+    which is consumed by <a target="_blank" href="https://vuejs.org/v2/guide/single-file-components.html">vue-loader</a>,
+    is never physically created.<br>It's prepared in memory and passed <em>on-fly</em>.</p>
+</div>
