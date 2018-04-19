@@ -1,6 +1,6 @@
 # Vue separate files Webpack loader example app
 
-This example app demonstrates how to use this loader.
+This example app demonstrates how to use [vue-separate-files-webpack-loader](https://github.com/NetCZ/vue-separate-files-webpack-loader).
 
 ## Installation
 
